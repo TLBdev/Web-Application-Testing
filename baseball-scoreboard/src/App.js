@@ -4,6 +4,17 @@ import './App.css';
 import Dashboard from './components/dashboard'
 import Display from './components/display'
 
+export const strikeHandlertest = (x) => {
+
+  if (x < 2) {
+    return x + 1
+  } else {
+    return 0
+
+  }
+
+}
+
 function App() {
   const [allState, editState] = React.useState({
     strikes: 0,
